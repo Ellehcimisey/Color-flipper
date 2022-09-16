@@ -10,9 +10,9 @@ function randomColor() {
         color += letters [Math.floor(Math.random()*16)];
     }
     return `${color}`
-} //works 
+}  
 
 btn.addEventListener('click', function(){
     document.body.style.backgroundColor = colors;
     colorName.textContent = colors;
-}) //works but only once
+}) 
