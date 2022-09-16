@@ -10,11 +10,9 @@
     text-transform: uppercase;
 }
 
-.background {
+.container {
     width: 400px;
     height: 200px;
-    background-color: rgba(197, 181, 211, 0.089);
-    border-radius: 0.75em;
 }
 
 button {
@@ -26,16 +24,17 @@ button {
     padding: 1em 1em;
     cursor: pointer;
     transition: 0.25s ease;
-
 }
 
 button:hover {
     outline: 5; 
     box-shadow: 0 0 0 2px rgba(49, 43, 43, 0.444);
+    background-color: whitesmoke;
 }
 
 p {
     font-size: 25px;
 }
+
 
 
